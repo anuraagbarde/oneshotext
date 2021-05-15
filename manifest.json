@@ -26,5 +26,11 @@
         "scripts": [
             "background.js"
         ]
+    },
+    "icons": {
+        "16": "16.png",
+        "19": "19.png",
+        "48": "48.png",
+        "128": "128.png"
     }
 }
