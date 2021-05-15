@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "OneShot",
-    "description": "Quick launch oneshot",
+    "name": "TwoShot",
+    "description": "NameCatcher twoshot",
     "version": "0.1.0",
     "page_action": {
-        "default_icon": "logosmall.png",
-        "default_title": "OnsShot NameCatcher",
+        "default_icon": "128.png",
+        "default_title": "TwoShot NameCatcher",
         "default_popup": "popup.html"
     },
     "permissions": [
