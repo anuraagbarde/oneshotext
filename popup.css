@@ -1,3 +1,13 @@
+@import url("spinner.css");
+
 .darkbackground {
-    background-color: blue;
+    background-color: rgba(36,53,86,255);
+}
+
+.rootdiv {
+    width: 250px;
+}
+
+img {
+    max-width: 100%;
 }
