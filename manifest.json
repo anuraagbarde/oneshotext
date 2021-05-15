@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "OneShot",
+    "description": "Quick launch oneshot",
+    "version": "0.1.0",
+    "page_action": {
+        "default_icon": "logosmall.png",
+        "default_title": "OnsShot NameCatcher",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.linkedin.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
